@@ -6,6 +6,7 @@ const port = 3000
 const axios = require('axios').default;
 
 
+
 app.set('src' , './src')
 
 
@@ -26,6 +27,15 @@ app.get('/case' , (req,res) => {
     }
     res.send(JSON.parse(data))
   })
+})
+
+app.get('/axios' , (req,res) => {
+  axios.get('http://0b35-122-179-65-188.ngrok.io/case')
+.then(function (response){
+  console.log(response)
+})
+
+
 })
 
 
