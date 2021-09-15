@@ -1,0 +1,34 @@
+[
+{
+    "id": 1,
+    "CASES" : "THE CASES WILL BE UPDATED EVERY WEEK.",
+    "updated": 1631677597996,
+    "country": "India",
+    "countryInfo": {
+        "iso2": "IN",
+        "iso3": "IND",
+        "lat": 20,
+        "long": 77
+    },
+    "cases": 33315512,
+    "todayCases": 27491,
+    "deaths": 443528,
+    "todayDeaths": 281,
+    "recovered": 32514629,
+    "todayRecovered": 37982,
+    "active": 357355,
+    "critical": 8944,
+    "casesPerOneMillion": 23860,
+    "deathsPerOneMillion": 318,
+    "tests": 544444967,
+    "testsPerOneMillion": 389917,
+    "population": 1396309280,
+    "continent": "Asia",
+    "oneCasePerPeople": 42,
+    "oneDeathPerPeople": 3148,
+    "oneTestPerPeople": 3,
+    "activePerOneMillion": 255.93,
+    "recoveredPerOneMillion": 23286.12,
+    "criticalPerOneMillion": 6.41
+}
+]
