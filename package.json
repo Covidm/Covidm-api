@@ -1,0 +1,23 @@
+{
+  "name": "covidm-api",
+  "version": "1.0.0",
+  "description": "The api for covidm platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Covidm/Covidm-api.git"
+  },
+  "author": "Udhay r",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Covidm/Covidm-api/issues"
+  },
+  "homepage": "https://github.com/Covidm/Covidm-api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ngrok": "^4.2.2"
+  }
+}
