@@ -30,6 +30,15 @@ app.get('/case' , (req,res) => {
 app.get('/api/cases/:id' , (req,res) => {
   
 })
+
+app.get('/all' , (req,res) => {
+  fs.readFile('./src/Covid/country.json' , 'utf8' , (err,data) => {
+    if(err){
+      throw err
+    }
+    res.send(JSON.parse(data))
+  })
+})
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
