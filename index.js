@@ -3,6 +3,8 @@ const fs = require('fs')
 const { createSecureServer } = require('http2')
 const app = express()
 const port = 3000
+const axios = require('axios').default;
+
 
 app.set('src' , './src')
 
@@ -25,6 +27,9 @@ app.get('/case' , (req,res) => {
     res.send(JSON.parse(data))
   })
 })
+
+
+
 
 
 app.get('/api/cases/:id' , (req,res) => {
