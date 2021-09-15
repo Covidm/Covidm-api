@@ -14,6 +14,7 @@ app.get('/', (req, res) => {
       }
       res.send(JSON.parse(data))
   })
+
 })
 
 app.get('/case' , (req,res) => {
