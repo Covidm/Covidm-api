@@ -2,9 +2,10 @@ const express = require('express')
 const fs = require('fs')
 const { createSecureServer } = require('http2')
 const app = express()
-const port = 3000
+const port = 8080
 const axios = require('axios').default;
 
+const api ="http://32e5-122-179-97-105.ngrok.io/case"
 
 
 app.set('src' , './src')
@@ -19,24 +20,40 @@ app.get('/', (req, res) => {
   })
 
 })
+// india cases
 
 app.get('/case' , (req,res) => {
-  fs.readFile('./src/Covid/total_cases_india.json' , 'utf8' , (err,data) => {
+  fs.readFile('./src/Covid/conuty.json' , 'utf8' , (err,data) => {
     if(err){
       throw err
     }
     res.send(JSON.parse(data))
   })
 })
+// api test
 
-app.get('/axios' , (req,res) => {
-  axios.get('http://0b35-122-179-65-188.ngrok.io/case')
-.then(function (response){
-  console.log(response)
-})
+// const searchForCountry = async countryName => {
+//   loading.style.display = "block";
+//   errors.textContent = "";
+//   try {
+//     const response = await axios.get(`${api}/${countryName}`);
+//     if(response.data ==="Country not found"){ throw error;  }
+//     loading.style.display = "none";
+//     todayCases.textContent = response.data.todayCases;
+//     todayDeaths.textContent = response.data.todayDeaths;
+//     cases.textContent = response.data.cases;
+//     recovered.textContent = response.data.recovered;
+//     deaths.textContent = response.data.deaths;
+//     tests.textContent =  response.data.totalTests;
+//     results.style.display = "block";
+//   } catch (error) {
+//     loading.style.display = "none";
+//     results.style.display = "none";
+//     errors.textContent =  errornotfound();
+//   }
+// };
 
 
-})
 
 
 

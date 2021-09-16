@@ -1,6 +1,6 @@
 [
 {
-    "id": 1,
+    "ID": 1,
     "CASES" : "THE CASES WILL BE UPDATED EVERY WEEK.",
     "updated": 1631677597996,
     "country": "India",
@@ -10,6 +10,7 @@
         "lat": 20,
         "long": 77
     },
+    "ID": 2,
     "cases": 33315512,
     "todayCases": 27491,
     "deaths": 443528,
