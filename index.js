@@ -2,7 +2,7 @@ const express = require('express')
 const fs = require('fs')
 const { createSecureServer } = require('http2')
 const app = express()
-const port = 8080
+const port = process.env.PORT || 8080
 const axios = require('axios').default;
 
 const api ="http://32e5-122-179-97-105.ngrok.io/case"
