@@ -23,13 +23,15 @@ app.get('/', (req, res) => {
 // india cases
 
 app.get('/case' , (req,res) => {
-  fs.readFile('./src/Covid/conuty.json' , 'utf8' , (err,data) => {
+  fs.readFile('./src/Covid/total_cases_india.json' , 'utf8' , (err,data) => {
     if(err){
       throw err
     }
     res.send(JSON.parse(data))
   })
 })
+
+
 // api test
 
 // const searchForCountry = async countryName => {

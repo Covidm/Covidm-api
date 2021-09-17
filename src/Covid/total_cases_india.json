@@ -1,6 +1,5 @@
-[
+
 {
-    "ID": 1,
     "CASES" : "THE CASES WILL BE UPDATED EVERY WEEK.",
     "updated": 1631677597996,
     "country": "India",
@@ -32,4 +31,3 @@
     "recoveredPerOneMillion": 23286.12,
     "criticalPerOneMillion": 6.41
 }
-]
