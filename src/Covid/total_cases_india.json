@@ -1,4 +1,4 @@
-[
+
 {
     "CASES" : "THE CASES WILL BE UPDATED EVERY WEEK.",
     "updated": 1631677597996,
@@ -30,11 +30,4 @@
     "activePerOneMillion": 255.93,
     "recoveredPerOneMillion": 23286.12,
     "criticalPerOneMillion": 6.41
-},
-{
-    "Region": "USA",
-    "Casesusa": 41915285,
-    "total-deaths": 670565
-
 }
-]
