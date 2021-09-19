@@ -22,9 +22,14 @@ designed and developed by Udhay rajeev
 Clone the Repo.. 
 then run `npm install` to install all the modules requeired for this project.
 
-then run `npm start` to start the api docker changes will be soon update 
-Happy coding/hacking!
+once all the packages hav been insatlled then run `ngork http (port your runnign on)`
 
+
+then run `npm start` to start the api docker changes will be soon update 
+
+open postman and use the port forward url to see the api data
+
+Happy coding/hacking!
 
 ## How to use This api?
 The api is still under dev Use the following routes
