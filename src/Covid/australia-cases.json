@@ -1,0 +1,20 @@
+{
+    "updated": 1631682999325,
+    "cases": 190591,
+    "todayCases": 2178,
+    "deaths": 2465,
+    "todayDeaths": 20,
+    "recovered": 126817,
+    "todayRecovered": 187,
+    "active": 61309,
+    "critical": 228,
+    "casesPerOneMillion": 4441.45,
+    "deathsPerOneMillion": 57.44,
+    "tests": 38293520,
+    "testsPerOneMillion": 892375.62,
+    "population": 42911885,
+    "continent": "Australia-Oceania",
+    "activePerOneMillion": 1428.72,
+    "recoveredPerOneMillion": 2955.29,
+    "criticalPerOneMillion": 5.31
+}
