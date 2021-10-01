@@ -40,7 +40,7 @@ app.get('/usa' , (req,res) => {
   })
 })
 
-app.get('/aus' , (reqmres) => {
+app.get('/aus' , (req,res) => {
   fs.readFile('./src/Covid/australia-cases.json' , 'utf8' , (err,data) => {
     if(err){
       throw err
