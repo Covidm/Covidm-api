@@ -1,0 +1,21 @@
+{
+    "updated": 1631682999324,
+    "cases": 8155408,
+    "todayCases": 17417,
+    "deaths": 204501,
+    "todayDeaths": 612,
+    "recovered": 7395894,
+    "todayRecovered": 34381,
+    "active": 555013,
+    "critical": 4196,
+    "casesPerOneMillion": 5913.71,
+    "deathsPerOneMillion": 148.29,
+    "tests": 70008602,
+    "testsPerOneMillion": 50765.2,
+    "population": 1379066920,
+    "continent": "Africa",
+    "activePerOneMillion": 402.46,
+    "recoveredPerOneMillion": 5362.97,
+    "criticalPerOneMillion": 3.04
+}
+
