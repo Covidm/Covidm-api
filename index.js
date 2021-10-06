@@ -49,15 +49,15 @@ app.get('/aus' , (req,res) => {
   })
 })
 
-app.get('/africa' , (req,res) => {
-  fs.readfile('./src/Covid/africa-cases.json' , 'utf8' , (err,data) => {
+
+app.get('/Africa' , (req,res) => {
+  fs.readFile('./src/Covid/africa-cases.json' , 'utf8' , (err,data) => {
     if(err){
       throw err
     }
     res.send(JSON.parse(data))
   })
 })
-
 
 // api test
 
